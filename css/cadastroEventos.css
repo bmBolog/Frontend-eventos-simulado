@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 80px;
+    background-color: #21c2eb;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 30px;
+}
+
+.logo {
+    height: 50px;
+    width: 115px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+
+/* Card azul */
+
+.card-cadastro {
+    width: 500px;
+    padding: 40px;
+    background-color: #e3f9ff;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+
+/* Título */
+
+.title {
+    font-size: 20px;
+    margin: 0 0 30px 0;
+    text-align: center;
+}
+
+
+/* Formulário */
+
+.formulario {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* Textos */
+
+label {
+    width: 300px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+/* Campos de texto */
+
+input,
+select {
+    width: 300px;
+    height: 35px;
+    margin-bottom: 25px;
+    font-size: 14px;
+    padding: 6px;
+    border: 1px solid #e3f9ff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+}
+
+
+/* Botão */
+button {
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: #21c2eb;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #bfbfbf;
+}
